@@ -1,0 +1,32 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://weapons/drone-plant.tscn" type="PackedScene" id=1]
+[ext_resource path="res://NTCED Parts Pack/weapons/advanced-drone-plant.gd" type="Script" id=2]
+
+[node name="drone-plant" instance=ExtResource( 1 )]
+script = ExtResource( 2 )
+repairReplacementPrice = 15000000
+powerDraw = 550000.0
+systemName = "SYSTEM_DND_JSNOMDrone"
+dronesPerSecond = 1050
+laserRange = 25000
+maxDroneDistance = 25000
+minEnergyToTarget = 1
+droneTugPower = 275.0
+haulVelocity = 485
+shoveVelocity = 595
+builtInDroneStorage = 50000
+droneFunction = "haul"
+mass = 10750
+advancedFunction = "none"
+droneAmount = 4
+patchCurrentTargetBias = false
+yeetProtocol = false
+kineticAdjust = 1.0
+massLimit = 8.0
+massUpperLimit = 25000.0
+iffRequired = 0.5
+refineRate = 10.0
+lostMass = 1.0
+remassEfficiency = 0.0
+mineralEfficiency = 0.1

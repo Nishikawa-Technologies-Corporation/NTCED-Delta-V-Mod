@@ -54,3 +54,12 @@ SYSTEM_DND_PEXTMDrone_DESC|Another leaked protype model meant for Titan class mi
 SYSTEM_DND_PEXTMDrone_SPECS|Power draw: 225 MW \nEffective range: 1200 m (line of sight) \nBuilt-in Storage: 10,000 kg \nDrone launch capability: 275 dps \n Mass: 5,500 kg \nManufacturer: Nishikawa Technologies Corporate Engineering Division
 
 SYSTEM_DND_PEXTMDrone_MANUAL|Moves ore and lifepods automatically towards cargo hold. \nOre targeting criteria can be adjusted on the Geologist tab. \nCan interface with compatible reconnaissance craft. \nRequires nanodrone components storage. \nManeuvers during operation will cause the system to attempt to adjust movement of all valid targets.
+
+
+SYSTEM_DND_JSNOMDrone|NTCED JSN Omega MIL Miner Class
+
+SYSTEM_DND_JSNOMDrone_DESC|The Japan Space Naval Omega Miner Class model was meant for the JSN fleets that were tasked with extreme deep space exploration. This was the product of extensive research and has been released to the general public for all miners. This model has a very high power draw at 550 MW compared to any other model but has 4 drone launchers packed in with ample storage.
+
+SYSTEM_DND_JSNOMDrone_SPECS|Power draw: 550 MW \nEffective range: 2500 m (line of sight) \nBuilt-in Storage: 50,000 kg \nDrone launch capability: 1,050 dps \n Mass: 10,750 kg \nManufacturer: Nishikawa Technologies Corporate Engineering Division
+
+SYSTEM_DND_JSNOMDrone_MANUAL|Moves ore and lifepods automatically towards cargo hold. \nOre targeting criteria can be adjusted on the Geologist tab. \nCan interface with compatible reconnaissance craft. \nRequires nanodrone components storage. \nManeuvers during operation will cause the system to attempt to adjust movement of all valid targets.
