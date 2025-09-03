@@ -1,5 +1,6 @@
 locale|en
 
+NTCED_DESCRIPTION|Expands the selection of nanodrone launchers available at Enceladus's shipyards.
 
 SYSTEM_DND_DHMOD|NTCED Dual Haulers M.O.D.
 

@@ -96,6 +96,7 @@ func _ready():
 
 func _setEnabled(how:bool):
 	enabled = how
+	DronePickupArea = self.get_node_or_null("DronePickupArea")
 # Disable the monitoring area if we're repair drones
 	if droneFunction == "repair":
 		DronePickupArea.monitoring = false
@@ -334,7 +335,11 @@ func __physics_process(delta):
 		for idx in droneLaunchers.size():
 			target = droneTargets[idx]
 			var drones = droneLaunchers[idx]
-			var rDrone = targetLaunchers[idx]
+			var rDrone
+			if targetLaunchers.size() < 1:
+				rDrone = null
+			else:
+				rDrone = targetLaunchers[idx]
 			var laser = playerLasers[idx]
 
 			drones.sourceVelocity = ship.linear_velocity + launchVector.rotated(global_rotation)

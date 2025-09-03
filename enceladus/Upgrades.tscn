@@ -30,10 +30,11 @@ texture = SubResource( 1 )
 texture = SubResource( 2 )
 
 [node name="MarginContainer" parent="VB/MarginContainer/ScrollContainer" index="0"]
-margin_bottom = 33424.0
+margin_top = 0.0
+margin_bottom = 33482.0
 
 [node name="Items" parent="VB/MarginContainer/ScrollContainer/MarginContainer" index="0"]
-margin_bottom = 33408.0
+margin_bottom = 33482.0
 
 [node name="MainWeaponSlot" parent="VB/MarginContainer/ScrollContainer/MarginContainer/Items" index="0"]
 margin_bottom = 1831.0
@@ -954,23 +955,23 @@ margin_bottom = 30819.0
 
 [node name="CargoBay" parent="VB/MarginContainer/ScrollContainer/MarginContainer/Items" index="27"]
 margin_top = 30823.0
-margin_bottom = 31322.0
+margin_bottom = 31396.0
 
 [node name="Autopilot" parent="VB/MarginContainer/ScrollContainer/MarginContainer/Items" index="28"]
-margin_top = 31326.0
-margin_bottom = 31825.0
+margin_top = 31400.0
+margin_bottom = 31899.0
 
 [node name="Hud" parent="VB/MarginContainer/ScrollContainer/MarginContainer/Items" index="29"]
-margin_top = 31829.0
-margin_bottom = 32624.0
+margin_top = 31903.0
+margin_bottom = 32698.0
 
 [node name="Lidar" parent="VB/MarginContainer/ScrollContainer/MarginContainer/Items" index="30"]
-margin_top = 32628.0
-margin_bottom = 33053.0
+margin_top = 32702.0
+margin_bottom = 33127.0
 
 [node name="ReconDrone" parent="VB/MarginContainer/ScrollContainer/MarginContainer/Items" index="31"]
-margin_top = 33057.0
-margin_bottom = 33408.0
+margin_top = 33131.0
+margin_bottom = 33482.0
 
 [editable path="VB/HeaderWithMoney"]
 [editable path="VB/WindowMargin/TabHintContainer"]

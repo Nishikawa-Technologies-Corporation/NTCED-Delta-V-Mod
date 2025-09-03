@@ -1,0 +1,30 @@
+[mod_information]
+
+id="rena_chan.NTCED"
+name="NTCED Parts Pack"
+description="NTCED_DESCRIPTION"
+author="Rena-Chan"
+credits=["Za'krin - making ModMain.gd and help in various other ways","DigitalBarrito - for getting me into DV and into modding","SpaceDOTexe - for their mod and having a reference point for my mod","__hev - porting to their library and for fixing incompatabilities"]
+
+[version]
+
+version_major=1
+version_minor=1
+version_bugfix=3
+
+[tags]
+
+adds_equipment=["SYSTEM_DND_DHMOD","SYSTEM_DND_EHCDrone","SYSTEM_DND_XLEHCDrone","SYSTEM_DND_DHHC","SYSTEM_DND_PMDrone","SYSTEM_DND_PEXTMDrone"]
+allow_achievements=false
+overhaul=true
+quality_of_life=true
+language=["en","uk_UA"]
+
+[links]
+
+github={"link":"https://github.com/Nishikawa-Technologies-Corporation/NTCED-Delta-V-Mod","has_releases":true}
+discord="https://discord.com/channels/426287934870781952/1290925501250273343"
+
+[manifest_definitions]
+
+manifest_version=2.1

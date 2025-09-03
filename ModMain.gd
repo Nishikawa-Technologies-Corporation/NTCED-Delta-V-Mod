@@ -9,7 +9,10 @@ const MOD_NAME = "NTCED Parts Pack"
 var modPath:String = get_script().resource_path.get_base_dir() + "/"
 # Required var for the replaceScene() func to work
 var _savedObjects := []
-
+const MOD_VERSION_MAJOR = 1
+const MOD_VERSION_MINOR = 1
+const MOD_VERSION_BUGFIX = 3
+const MOD_VERSION_METADATA = "Hev Patch"
 
 # Initialize the mod
 # This function is executed before the majority of the game is loaded
@@ -18,10 +21,14 @@ var _savedObjects := []
 func _init(modLoader = ModLoader):
 	l("Initializing")
 
+	var self_path = self.get_script().get_path()
+	var self_directory = self_path.split(self_path.split("/")[self_path.split("/").size() - 1])[0]
+	var self_check = load(self_directory + "mod_checker_script.tscn").instance()
+	add_child(self_check)
 	updateTL("i18n/en.txt", "|")
 	updateTL("i18n/ua.txt", "|")
-	replaceScene("enceladus/Upgrades.tscn")
-	replaceScene("weapons/WeaponSlot.tscn")
+#	replaceScene("enceladus/Upgrades.tscn")
+#	replaceScene("weapons/WeaponSlot.tscn")
 	
 	l("Initialized")
 
