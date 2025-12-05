@@ -2,6 +2,8 @@ locale|en
 
 NTCED_DESCRIPTION|Expands the selection of nanodrone launchers available at Enceladus's shipyards.
 
+NTCED_BRIEF|Expands the selection of nanodrone launchers available at Enceladus's shipyards.
+
 SYSTEM_DND_DHMOD|NTCED Dual Haulers M.O.D.
 
 SYSTEM_DND_DHMOD_DESC|A modified verison of Minding LF's Hual drones, this has the same range as the standard MLF Drone but allowing two drones to be launched simultaneously at the cost of higher power draw. Very popular with Titan class ships as it allowed for longer mining expeditions.
