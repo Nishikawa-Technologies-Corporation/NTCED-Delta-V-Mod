@@ -10,8 +10,8 @@ var modPath:String = get_script().resource_path.get_base_dir() + "/"
 # Required var for the replaceScene() func to work
 var _savedObjects := []
 const MOD_VERSION_MAJOR = 1
-const MOD_VERSION_MINOR = 1
-const MOD_VERSION_BUGFIX = 3
+const MOD_VERSION_MINOR = 2
+const MOD_VERSION_BUGFIX = 0
 const MOD_VERSION_METADATA = "Hev Patch"
 
 # Initialize the mod
